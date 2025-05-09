@@ -1,0 +1,68 @@
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+main {
+  pointer-events: none;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  width: 100vw;
+  color: black;
+  z-index: auto;
+  display: flex;
+}
+
+h1 {
+  position: center;
+  z-index: 1;
+  justify-content: center; /* allows content to be centered when using flex */
+  font-size: 45px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: "Bebas Neue";
+}
+
+h {
+  pointer-events: auto;
+  display: flex;
+  text-align: center;
+  justify-content: center; /* allows content to be centered when using flex */
+  text-decoration: 4px underline;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: "Bebas Neue";
+  border: 8px ridge #C0C0C0;
+}
+
+
+ul {
+  pointer-events: auto;
+  color: #000000;
+  font-size: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: "Rubik Distressed";
+}
+
+li {
+  pointer-events: auto;
+  color: #000000;
+  font-size: 20px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-family: "Rubik Distressed";
+}
+
+
