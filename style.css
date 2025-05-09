@@ -1,5 +1,7 @@
 canvas {
   position: fixed;
+  width: 100vw; /* 100% of the screen width */
+  height: 100vh; /* 100% of the screen height */
   top: 0;
   left: 0;
 }
@@ -17,6 +19,7 @@ main {
 
 h1 {
   position: center;
+  font-size: 6vw; /* scales with screen width */
   z-index: 1;
   justify-content: center; /* allows content to be centered when using flex */
   font-size: 45px;
@@ -33,6 +36,7 @@ h1 {
 
 h {
   pointer-events: auto;
+  font-size: 6vw; /* scales with screen width */
   display: flex;
   text-align: center;
   justify-content: center; /* allows content to be centered when using flex */
@@ -49,6 +53,7 @@ h {
 
 ul {
   pointer-events: auto;
+  font-size: 4vw;
   color: #000000;
   font-size: 20px;
   padding-top: 0px;
@@ -58,6 +63,7 @@ ul {
 
 li {
   pointer-events: auto;
+  font-size: 4vw;
   color: #000000;
   font-size: 20px;
   padding-top: 4px;
