@@ -41,6 +41,15 @@ Array(200).fill().forEach(addStar);
 const oceanTexture = new THREE.TextureLoader().load('OceanBG1.jpg');
 scene.background = oceanTexture;
 
+//making the canvas resize dynamically
+window.addEventListener('resize', () => {
+  camera.aspect = window.innerWidth / window.innerHeight;
+  camera.updateProjectionMatrix();
+
+  renderer.setSize(window.innerWidth, window.innerHeight);
+});
+
+
 // Animation loop
 function animate() {
   requestAnimationFrame(animate);
